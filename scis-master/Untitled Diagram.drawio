@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T10:14:08.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-y4ZOX70HzKtvWOeeYkX" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T10:20:33.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oDZ1NmMzFSE1YhrifqV9" version="14.1.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2591" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -107,8 +107,8 @@
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-49" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=-90;" vertex="1" parent="3">
           <mxGeometry x="263" y="300.88" width="238.19" height="56.5" as="geometry" />
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-52" value="his跟医院端前&lt;br&gt;置服务平台" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="3">
-          <mxGeometry x="496" y="280.1" width="128.81" height="77.28" as="geometry" />
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-52" value="his跟医院端前&lt;br&gt;置服务平台测试无误" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="3">
+          <mxGeometry x="496" y="280.1" width="133.18" height="79.9" as="geometry" />
         </mxCell>
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-50" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;" edge="1" parent="3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -117,10 +117,21 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-55" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;" edge="1" parent="3">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-55" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;entryX=0.303;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3" target="rNH56YSWSUWT8DuMc6Oc-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="556" y="360" as="sourcePoint" />
-            <mxPoint x="556" y="470" as="targetPoint" />
+            <mxPoint x="559.91" y="357.38" as="sourcePoint" />
+            <mxPoint x="-274" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="56" y="550" />
+              <mxPoint x="-274" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-60" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;" edge="1" parent="3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629.1800000000001" y="319.54999999999995" as="sourcePoint" />
+            <mxPoint x="796" y="320" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -166,6 +177,13 @@
         </mxCell>
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-38" value="HIs调用医院端前置服务&#xa;平台进行医保跟医疗服务&#xa;测试" style="" vertex="1" parent="rNH56YSWSUWT8DuMc6Oc-30">
           <mxGeometry x="69" y="302" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-61" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rNH56YSWSUWT8DuMc6Oc-30" target="JvweXrn4YNAcpIMkQRCn-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214" y="341.49999999999994" as="sourcePoint" />
+            <mxPoint x="304" y="342.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
