@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T10:20:33.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oDZ1NmMzFSE1YhrifqV9" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T10:57:34.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-6jpugdRZ4afPIKn0e8h" version="14.1.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2591" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -10,44 +10,27 @@
         <mxCell id="5" value="A医院支付宝" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=#FFFFFF;" parent="2" vertex="1">
           <mxGeometry x="75.5" y="40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="5" target="7" edge="1">
+        <mxCell id="8" value="2.支付宝小程序医疗业务、医保业务办理" style="" parent="2" vertex="1">
+          <mxGeometry x="20.5" y="306.31" width="219.5" height="63.69" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-72" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="5" target="8">
           <mxGeometry x="100" y="40" as="geometry">
-            <mxPoint x="115" y="110" as="targetPoint" />
+            <mxPoint x="-424" y="490" as="targetPoint" />
+            <mxPoint x="-424.5" y="208" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="进入A医院支付宝&#xa;小程序" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="首次进入A医院支付宝小程序，&#xa;小程序会对用户核验身份，认证授权&#xa;支付宝会获取用户个人信息&#xa;" style="" parent="2" vertex="1">
-          <mxGeometry x="20" y="220" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="A医院小程序请求数&#xa;字医保综合接口平台&#xa;" style="" parent="2" vertex="1">
-          <mxGeometry x="50.5" y="443" width="130" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="8" target="JvweXrn4YNAcpIMkQRCn-87" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-44" value="请求失败则重新进入&#xa;小程序" style="" parent="2" vertex="1">
-          <mxGeometry x="50" y="490" width="130" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-87" value="用户点击线上结算&#xa;业务，医院会将处方信息&#xa;上传到医保业务系统进行审核&#xa;" style="" parent="2" vertex="1">
-          <mxGeometry x="40" y="300" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-94" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="2" source="JvweXrn4YNAcpIMkQRCn-87" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="128" y="362" as="sourcePoint" />
-            <mxPoint x="125" y="322" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-73" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;entryX=0.642;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" target="JvweXrn4YNAcpIMkQRCn-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="105" y="372" as="sourcePoint" />
+            <mxPoint x="770" y="472" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="472" />
+              <mxPoint x="766" y="472" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-126" value="待j医保业务系统审核无误&#xa;后，进行医保结算业务操作" style="" parent="2" vertex="1">
-          <mxGeometry x="40.5" y="350" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="数字医保健康服务平台" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="880" y="130" width="360" height="600" as="geometry" />
+          <mxGeometry x="880" y="130" width="430" height="600" as="geometry" />
         </mxCell>
         <mxCell id="JvweXrn4YNAcpIMkQRCn-64" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,8 +39,41 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-67" value="用户" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="1240" y="128" width="290" height="602" as="geometry" />
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-63" value="数字医保健康服务平台第三方调用" style="whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="50" y="260" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-64" value="医保业务处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-65" value="医疗业务处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="180" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-68" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" vertex="1" parent="4">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-69" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;" edge="1" parent="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="319.49999999999994" as="sourcePoint" />
+            <mxPoint x="120" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-70" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=-90;" vertex="1" parent="4">
+          <mxGeometry x="270" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-71" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;entryX=1.006;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4" target="rNH56YSWSUWT8DuMc6Oc-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360.0000000000002" y="299.99999999999994" as="sourcePoint" />
+            <mxPoint x="-110" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="300.5" />
+              <mxPoint x="410" y="520" />
+              <mxPoint x="-116" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-76" value="正式数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="医院端前置服务平台" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="134" y="130" width="746" height="601" as="geometry" />
@@ -89,16 +105,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-43" value="预约挂号" style="" vertex="1" parent="3">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-43" value="预约挂号接口" style="" vertex="1" parent="3">
           <mxGeometry x="207" y="383" width="145" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-44" value="数字影像" style="" vertex="1" parent="3">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-44" value="数字影像接口" style="" vertex="1" parent="3">
           <mxGeometry x="207" y="415" width="145" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-45" value="结果查询" style="" vertex="1" parent="3">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-45" value="结果查询接口" style="" vertex="1" parent="3">
           <mxGeometry x="207" y="447" width="145" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-46" value="检验检查" style="" vertex="1" parent="3">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-46" value="检验检查接口" style="" vertex="1" parent="3">
           <mxGeometry x="207" y="479" width="145" height="32" as="geometry" />
         </mxCell>
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-47" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" vertex="1" parent="3">
@@ -135,47 +151,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-104" value="医院" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="1530" y="128" width="290" height="602" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-105" value="用户查看结算结果" style="" parent="JvweXrn4YNAcpIMkQRCn-104" vertex="1">
-          <mxGeometry x="70" y="362" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-106" value="关闭A医院支付宝&#xa;小程序" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#FFFFFF;" parent="JvweXrn4YNAcpIMkQRCn-104" vertex="1">
-          <mxGeometry x="70" y="480" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-107" value="&lt;font color=&quot;#000000&quot;&gt;A医院接收数字医保综合接口平台返回数据&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="JvweXrn4YNAcpIMkQRCn-104" vertex="1">
-          <mxGeometry x="60" y="111" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-108" value="&lt;font color=&quot;#000000&quot;&gt;A医院将结算结果发送到支付宝小程序上&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="JvweXrn4YNAcpIMkQRCn-104" vertex="1">
-          <mxGeometry x="60" y="191" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-109" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="JvweXrn4YNAcpIMkQRCn-104" source="JvweXrn4YNAcpIMkQRCn-107" target="JvweXrn4YNAcpIMkQRCn-108" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6" y="157" as="sourcePoint" />
-            <mxPoint x="69" y="157" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-110" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="JvweXrn4YNAcpIMkQRCn-104" source="JvweXrn4YNAcpIMkQRCn-108" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-361" y="260" as="sourcePoint" />
-            <mxPoint x="119" y="362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-111" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;" parent="JvweXrn4YNAcpIMkQRCn-104" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="412" as="sourcePoint" />
-            <mxPoint x="119.5" y="483" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JvweXrn4YNAcpIMkQRCn-114" value="&lt;font color=&quot;#000000&quot;&gt;用户通过A医院支付宝小程序确认无误后进行支付结算，将结算信息返回给医保结算&lt;br&gt;平台&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="230" width="120" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-30" value="医院" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="-250" y="127" width="384" height="603" as="geometry" />
         </mxCell>
-        <mxCell id="rNH56YSWSUWT8DuMc6Oc-38" value="HIs调用医院端前置服务&#xa;平台进行医保跟医疗服务&#xa;测试" style="" vertex="1" parent="rNH56YSWSUWT8DuMc6Oc-30">
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-38" value="1.HIs调用医院端前置服务&#xa;平台进行医保跟医疗服务&#xa;测试" style="" vertex="1" parent="rNH56YSWSUWT8DuMc6Oc-30">
           <mxGeometry x="69" y="302" width="145" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rNH56YSWSUWT8DuMc6Oc-61" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rNH56YSWSUWT8DuMc6Oc-30" target="JvweXrn4YNAcpIMkQRCn-98">
@@ -183,6 +162,11 @@
             <mxPoint x="214" y="341.49999999999994" as="sourcePoint" />
             <mxPoint x="304" y="342.2" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNH56YSWSUWT8DuMc6Oc-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rNH56YSWSUWT8DuMc6Oc-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="509" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
