@@ -1,95 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T09:12:33.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="fpo_EvcT6NJ8ySANLb66" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T11:55:46.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TXDbkAL4u1XXPxi69FSO" version="18.0.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BD1Jg8zhjlbe8VxlEk6s-62" value="&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;广西医保移动支付线上结算流程图&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="970" y="60" width="380" height="20" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-1" value="医保电子处方管理中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="715" y="160" width="20" height="40" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-2" value="GMP/GSP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-3" value="参保人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="120" width="50" height="20" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-3" value="配送平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-6" value="广西医保移动支付平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="160" width="140" height="40" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-4" value="医保结算数据/医保处方流转流程监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-7" value="医院" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="160" width="140" height="40" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-5" value="药品全流程监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-8" value="支付宝" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="160" width="140" height="40" as="geometry" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-6" value="线上配送全流程配送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-9" value="医保电子凭证中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="160" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-10" value="移动支付中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="160" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nQW4x_q83M1rb_K5VCdC-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="650" as="sourcePoint" />
-            <mxPoint x="730" y="210" as="targetPoint" />
+            <mxPoint x="1170" y="90" as="sourcePoint" />
+            <mxPoint x="1110" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="899.5" y="633" as="sourcePoint" />
-            <mxPoint x="899.5" y="193" as="targetPoint" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-9" value="通过医保电子处方中心获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQW4x_q83M1rb_K5VCdC-7">
+          <mxGeometry x="-0.1056" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.583;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nQW4x_q83M1rb_K5VCdC-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1189.5" y="633" as="sourcePoint" />
-            <mxPoint x="1189.5" y="193" as="targetPoint" />
+            <mxPoint x="1170" y="100" as="sourcePoint" />
+            <mxPoint x="1170" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-12" value="&lt;b style=&quot;font-size: 24px;&quot;&gt;医保处方流转统一监管平台&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="30" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nQW4x_q83M1rb_K5VCdC-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1460" y="640" as="sourcePoint" />
-            <mxPoint x="1460" y="200" as="targetPoint" />
+            <mxPoint x="1170" y="90" as="sourcePoint" />
+            <mxPoint x="1350" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1710" y="633" as="sourcePoint" />
-            <mxPoint x="1710" y="193" as="targetPoint" />
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-15" value="通过配送品平台获取数据实时监控" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQW4x_q83M1rb_K5VCdC-14">
+          <mxGeometry x="0.0967" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.408;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nQW4x_q83M1rb_K5VCdC-1" target="nQW4x_q83M1rb_K5VCdC-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1959.5" y="633" as="sourcePoint" />
-            <mxPoint x="1959.5" y="193" as="targetPoint" />
+            <mxPoint x="930" y="380" as="sourcePoint" />
+            <mxPoint x="980" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.408;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="260" as="sourcePoint" />
-            <mxPoint x="890" y="260" as="targetPoint" />
+            <mxPoint x="1168.96" y="310" as="sourcePoint" />
+            <mxPoint x="1168" y="406.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-32" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;1.进入平台查看待缴费清单&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="735" y="230" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-33" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;2.通过医院接口查询代缴费&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="230" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-34" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="nQW4x_q83M1rb_K5VCdC-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.408;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="260" as="sourcePoint" />
-            <mxPoint x="1180" y="260" as="targetPoint" />
+            <mxPoint x="1430.96" y="310" as="sourcePoint" />
+            <mxPoint x="1430" y="406.03999999999996" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-35" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1180" y="300" as="sourcePoint" />
-            <mxPoint x="900" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EiBXwN07dSN6SDz8Uu5B-36" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;返回缴费信息&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="270" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
