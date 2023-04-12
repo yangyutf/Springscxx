@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T12:03:18.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LLi-9iG8OLQuM5e0IwFq" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T12:29:44.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="0o2-mkBcH3BYB7CGkCle" version="21.0.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1050" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="p61Ynkzub3tsG1vKFJLM-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="353" y="860" as="sourcePoint" />
-            <mxPoint x="1246.571568080357" y="850" as="targetPoint" />
+            <mxPoint x="1720" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p61Ynkzub3tsG1vKFJLM-29" value="his" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
@@ -122,6 +122,12 @@
         </mxCell>
         <mxCell id="veSOmnP_1DqjUxVUTsxA-16" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;智能药品管理系统完成点：&lt;br&gt;1.智能药品管理系统开发-已完成&lt;br&gt;2.智能药品CA签名正常使用&lt;br&gt;3.智能药品管理系统审方接口联调测试通过&lt;br&gt;4.智能药品管理系统基础数据开发联调测试&lt;br&gt;5.智能药品管理系统处方流转数据回传his&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="470" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="veSOmnP_1DqjUxVUTsxA-18" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;审方系统完成点：&lt;br&gt;1.审方系统审方接口回传审方结果及审方&lt;br&gt;药师姓名，药师CA信息&lt;br&gt;2.审方系统，CA签名验收通过&lt;br&gt;3.审方系统完成接口联调测试&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="480" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="veSOmnP_1DqjUxVUTsxA-19" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;his系统完成点：&lt;br&gt;1.his完成基础数据接口联调测试&lt;br&gt;2.his完成处方流转数据回传接口，并通过测试联调&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="500" width="310" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
